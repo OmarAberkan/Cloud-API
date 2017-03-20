@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace XamarinAllianceApp.Models
 {
-    class Fruit
+  public class Fruit
     {
+        public string DisplayImage { get; set; }
+        public string DisplayName { get; set; }
+
     }
 }

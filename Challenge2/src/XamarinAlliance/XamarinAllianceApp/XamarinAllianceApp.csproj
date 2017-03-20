@@ -32,14 +32,23 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Helpers\Constants.cs" />
-    <Compile Include="Models\Character.cs" />
-    <Compile Include="Controllers\CharacterService.cs" />
-    <Compile Include="Models\Weapon.cs" />
-    <Compile Include="Models\Movie.cs" />
+    <Compile Include="Models\Fruit.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="App.cs" />
-    <Compile Include="Views\CharacterListPage.xaml.cs">
-      <DependentUpon>CharacterListPage.xaml</DependentUpon>
+    <Compile Include="Views\Aardbei.xaml.cs">
+      <DependentUpon>Aardbei.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Appel.xaml.cs">
+      <DependentUpon>Appel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Banaan.xaml.cs">
+      <DependentUpon>Banaan.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Bes.xaml.cs">
+      <DependentUpon>Bes.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FruitApp.xaml.cs">
+      <DependentUpon>FruitApp.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
@@ -74,16 +83,47 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="characters.json" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Views\CharacterListPage.xaml">
+    <Content Include="Credits.txt" />
+    <Content Include="download %281%29.jpg" />
+    <Content Include="download %282%29.jpg" />
+    <Content Include="download %283%29.jpg" />
+    <Content Include="download.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\FruitApp.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Credits.txt" />
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\Banaan.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\Aardbei.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\Appel.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\Bes.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
   </ItemGroup>
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
