@@ -1,5 +1,4 @@
-﻿using Microsoft.WindowsAzure.MobileServices;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -13,16 +12,13 @@ namespace XamarinAllianceApp.Controllers
 {
     public class CharacterService
     {
-  
         /// <summary>
         /// Get the list of characters
         /// </summary>
         /// <returns>ObservableCollection of Character objects</returns>
         public async Task<ObservableCollection<Character>> GetCharactersAsync()
         {
-          
-            var characters = await characterList.ToListAsync();
-          
+            var characters = await ReadCharactersFromFile();
             return new ObservableCollection<Character>(characters);
         }
 

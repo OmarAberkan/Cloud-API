@@ -51,8 +51,7 @@ namespace XamarinAllianceApp.Views
                           new ImageCell
                         {
 
-                            // Some differences with loading images in initial release.
-                              ImageSource="Views/download.jpg",
+                         
                             Text = "Banana",
                             Detail = "The banana is an edible fruit – botanically a berry – produced by several kinds of large herbaceous flowering plants in the genus Musa. ",
                         },

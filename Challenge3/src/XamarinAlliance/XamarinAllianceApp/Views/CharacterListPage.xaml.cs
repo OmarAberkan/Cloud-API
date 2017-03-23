@@ -1,9 +1,7 @@
-﻿using Microsoft.WindowsAzure.MobileServices;
-using System;
+﻿using System;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 using XamarinAllianceApp.Controllers;
-using XamarinAllianceApp.Models;
 
 namespace XamarinAllianceApp.Views
 {
@@ -15,15 +13,8 @@ namespace XamarinAllianceApp.Views
         {
             InitializeComponent();
 
-            string mobileServiceClientUrl = "http://xamarinalliancebackend.azurewebsites.net";
-            MobileServiceClient Client = new MobileServiceClient(mobileServiceClientUrl);
-            IMobileServiceTable<Character> characterList = Client.GetTable<Character>();
-
-
             service = new CharacterService();
         }
-
-     
 
         protected override async void OnAppearing()
         {

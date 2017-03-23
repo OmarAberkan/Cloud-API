@@ -22702,20 +22702,20 @@
     "UAP,Version=v10.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Omar\\.nuget\\packages\\": {}
+    "C:\\Users\\nicktrog\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\Users\\Omar\\Desktop\\XamarinChallenges\\Challenge3\\src\\XamarinAlliance\\UWP\\XamarinAllianceApp.UWP.csproj",
+      "projectUniqueName": "C:\\code\\Xamarin\\XamarinAlliance\\Challenge 1\\src\\XamarinAlliance\\UWP\\XamarinAllianceApp.UWP.csproj",
       "projectName": "XamarinAllianceApp.UWP",
-      "projectPath": "C:\\Users\\Omar\\Desktop\\XamarinChallenges\\Challenge3\\src\\XamarinAlliance\\UWP\\XamarinAllianceApp.UWP.csproj",
-      "projectJsonPath": "C:\\Users\\Omar\\Desktop\\XamarinChallenges\\Challenge3\\src\\XamarinAlliance\\UWP\\project.json",
+      "projectPath": "C:\\code\\Xamarin\\XamarinAlliance\\Challenge 1\\src\\XamarinAlliance\\UWP\\XamarinAllianceApp.UWP.csproj",
+      "projectJsonPath": "C:\\code\\Xamarin\\XamarinAlliance\\Challenge 1\\src\\XamarinAlliance\\UWP\\project.json",
       "projectStyle": "ProjectJson",
       "frameworks": {
         "uap10.0": {
           "projectReferences": {
-            "C:\\Users\\Omar\\Desktop\\XamarinChallenges\\Challenge3\\src\\XamarinAlliance\\XamarinAllianceApp\\XamarinAllianceApp.csproj": {
-              "projectPath": "C:\\Users\\Omar\\Desktop\\XamarinChallenges\\Challenge3\\src\\XamarinAlliance\\XamarinAllianceApp\\XamarinAllianceApp.csproj"
+            "C:\\code\\Xamarin\\XamarinAlliance\\Challenge 1\\src\\XamarinAlliance\\XamarinAllianceApp\\XamarinAllianceApp.csproj": {
+              "projectPath": "C:\\code\\Xamarin\\XamarinAlliance\\Challenge 1\\src\\XamarinAlliance\\XamarinAllianceApp\\XamarinAllianceApp.csproj"
             }
           }
         }
